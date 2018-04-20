@@ -1,5 +1,5 @@
-def premin(*numbers):
-    l=list(numbers)
+def premin(*num):
+    l=list(num)
     l.sort()
     i = 0
     while True:
@@ -7,4 +7,4 @@ def premin(*numbers):
             i = i + 1
         else:
             return l[i]
-print(premin(1,1,3, 8, 3, 5, 6, 7, 6, 6))
+print(premin(1,1,5,5,3,3,8,8,2,2,7,7,6,6,10,10))
